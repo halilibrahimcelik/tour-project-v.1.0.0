@@ -9,10 +9,6 @@ function App() {
         Provident, rem? Ex perspiciatis quae quisquam explicabo molestias
         tempora officiis.
       </p>
-      <form action="">
-        <input type="text" />
-        <button>Click me</button>
-      </form>
     </div>
   );
 }
