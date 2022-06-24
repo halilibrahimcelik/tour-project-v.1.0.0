@@ -47,7 +47,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 .country-img:hover + .country-info{
 
 opacity: 0.8;
-transform: translateY(0);
+transform: translateY(-1rem);
 
 
 }
@@ -60,9 +60,13 @@ transform: translateY(0);
 opacity: 0;
     bottom:0;
     padding:1rem;
-    transform: translateY(100%);
+    transform: translateY(50%);
  transition: all 0.7s ease-in;
 
+ &:hover{
+    opacity: 0.8;
+    transform: translateY(-1rem);
+ }
 
 }
 
