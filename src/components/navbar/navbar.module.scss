@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+@import "../../scss/variables";
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content:center ;
+    color:$color-text;
+    gap:0.5rem;
+    
+    li{
+   
+        border-radius: 9px;
+        transition: all 0.4s ease-in;
+        padding:1rem;
+        font-family: 'Mochiy Pop One', sans-serif;
+        &:hover{
+            opacity: 0.8;
+            background-color: $color-text;
+            color:$color-dark;
+        }
+    }
+ 
+}
