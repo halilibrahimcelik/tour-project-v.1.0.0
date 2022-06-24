@@ -16,6 +16,7 @@ function App() {
         <input type="text" name="" id="" />
         <button>click me</button>
       </form>
+      <h2>Hi there </h2>
     </div>
   );
 }
