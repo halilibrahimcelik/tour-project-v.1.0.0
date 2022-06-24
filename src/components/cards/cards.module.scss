@@ -1,0 +1,27 @@
+@import "../../scss/variables";
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+.wrapper{
+ 
+background-color:$color-card;
+padding:1rem;
+border-radius: 9px;
+margin:1rem 0;
+width: 19rem;
+
+
+    h1{
+        font-family: 'Mochiy Pop One', sans-serif;
+        color:$color-text
+    }
+
+    
+
+}
+
+.country-img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 9px;
+}

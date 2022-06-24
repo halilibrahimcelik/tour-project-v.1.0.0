@@ -5,9 +5,23 @@ import "./scss/App.scss";
 console.log(data);
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
-      <Cards />
+
+      <div className="container-wrapper">
+        <div className="container">
+          {data.map((country) => {
+            return (
+              <Cards
+                key={country.id}
+                img={country.image}
+                title={country.title}
+                description={country.desc}
+              />
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 }
