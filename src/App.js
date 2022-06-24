@@ -2,6 +2,7 @@ import Header from "./components/header/Header";
 import Cards from "./components/cards/Cards";
 import { data } from "./utils/data";
 import "./scss/App.scss";
+import { useState } from "react";
 console.log(data);
 function App() {
   return (
