@@ -7,7 +7,7 @@ const Cards = (props) => {
       <div className={styles.wrapper}>
         <h1 className={styles["country-title"]}>{title} </h1>
         <img className={styles["country-img"]} src={img} alt="" />
-      <p className={styles["country-info"]}>{description}</p>
+      {/* <p className={styles["country-info"]}>{description}</p> */}
       </div>
 
     </main>
